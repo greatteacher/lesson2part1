@@ -3,13 +3,13 @@ b = input ('Введите pincode ещё раз b:')
 
 def function(a, b):
     if not (isinstance(a, str) and isinstance(b, str)):
-        return 0 
+        return '0  это не строковые'
     
     elif a == b:
-        return  1 + 'oll Korrect'
+        return  '1 oll Korrect'
 
     elif len(a) > len(b):
-        return 2+"2 not enough symbols"
+        return "2 not enough symbols"
 
     elif not ((a == b) and b == 'learn'):
         return 3
