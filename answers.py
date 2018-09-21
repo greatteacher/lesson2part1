@@ -1,7 +1,8 @@
 try:
     return ask_user(answers)
-except (IndentationError, KeyboardInterrupt):
+except (KeyboardInterrupt):
     return "что-то пошло не так, Пока!"
+работает
 answers={
     "hi":"Hello",
     "how r u?":"Fine, n u?",
